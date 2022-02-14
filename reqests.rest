@@ -2,10 +2,10 @@ DELETE http://localhost:3001/api/persons/1
 
 ###
 
-POST http://localhost:3001/api/persons/
+PUT http://localhost:3001/api/persons/620a1c934ae58fb1145b59de
 Content-Type: application/json
 
 {
   "name":"onana",
-  "number":"38824"
+  "number":"60000"
 }
