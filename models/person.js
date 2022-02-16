@@ -16,12 +16,7 @@ const personSchema= new mongoose.Schema({
   number: {
     type: String,
     required: true,
-    validate:{
-      validator: function(v){
-        return /\d{3}-\d{6}/.test(v)
-      },
-      message: 'invalid number!',
-    },
+    
   },
 })
 
